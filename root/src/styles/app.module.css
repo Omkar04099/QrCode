@@ -1,0 +1,114 @@
+.code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(white, black);
+}
+
+.headingContainer{background-color: #ee3f6c;
+    height: 10rem;
+    width: 22rem;
+    text-align: center;
+    border-radius: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0px 0px 8px 3px #8888;
+}
+
+.headingContainer h1,p{
+    margin: 0;
+}
+
+.headingContainer p{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.1rem;
+    padding: 8rem 2rem 2rem 2rem;
+    margin-top: -8rem;
+    background-color: white;
+}
+.linkContainer input,button {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    width: 22rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.linkContainer p{
+    color: red;
+    margin-top: 1rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #282828;
+    color: white;
+}
+.button img{
+    margin-right: 6px;
+}
+
+.myQR{
+    background-color: white;
+    padding: 1.2rem;
+}
+
+.myQR path{
+    margin: 1rem;
+}
+
+.canvasContainer{
+    z-index: 1;
+    background-color: #ee3f6c;
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+.buttonsContainer{
+    display: flex;
+}
+
+.downloadBtn{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #316535;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    width: 11rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+
+.downloadBtn img{
+    margin-right: 6px;
+}
+
+#clear{
+    width:11rem;
+}
+
+.btn{
+    display: flex;
+}
